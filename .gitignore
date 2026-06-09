@@ -17,3 +17,8 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
+
+# spesifik file
+panduan_qr.md
+README.md
+
