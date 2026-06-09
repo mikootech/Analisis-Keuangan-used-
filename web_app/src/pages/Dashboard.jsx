@@ -77,7 +77,7 @@ export default function Dashboard({ session, onLogout }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '14px', margin: 0 }}>Kelola keuangan Anda dengan mudah</p>
         </div>
         <button onClick={onLogout} className="btn btn-ghost" style={{ padding: '8px 14px' }}>
-          <LogOut size={16} /> <span style={{ display: 'none', '@media (min-width: 600px)': { display: 'inline' } }}>Keluar</span>
+          <LogOut size={16} /> <span className="hidden-mobile">Keluar</span>
         </button>
       </div>
 

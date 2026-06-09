@@ -194,3 +194,14 @@ a:hover {
   background: #059669;
   transform: translateY(-2px);
 }
+
+/* Responsive Helper Utilities */
+.hidden-mobile {
+  display: none !important;
+}
+
+@media (min-width: 600px) {
+  .hidden-mobile {
+    display: inline !important;
+  }
+}
