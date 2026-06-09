@@ -1,0 +1,14 @@
+# Jangan upload file ini ke GitHub!
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+.venv
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
